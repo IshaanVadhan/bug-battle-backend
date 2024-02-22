@@ -1,0 +1,152 @@
+body {
+  background-color: #87ceeb;
+}
+
+nav {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  font-style: italic;
+}
+/* nav img {
+    width: 70px;
+    height: fit-content;
+    margin: 0 60px;
+  } */
+
+#timer {
+  position: relative;
+  margin-left: 50%;
+  font-size: 25px;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(0, 0, 86);
+}
+
+.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
+
+  background-color: rgb(20, 57, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.compilebtn {
+  cursor: pointer;
+  margin-left: 50%;
+  width: 100px;
+  height: 38px;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+  background-color: rgb(20, 57, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: rgb(67, 0, 160);
+}
+/* button p {
+      font-size: 20px;
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      color: #FFF;
+    } */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.code {
+  flex: 1;
+  width: 80%;
+  min-height: 80vh;
+  overflow: auto;
+  display: inline-block;
+  background: #444;
+  color: white;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 20px;
+  position: center;
+  border-radius: 10px;
+  margin: 80px 20px 0;
+  resize: none;
+}
+
+.compiled {
+  flex: 0.5;
+  width: 80%;
+  min-height: 80vh;
+  overflow: auto;
+  display: inline-block;
+  background: #444;
+  color: white;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 20px;
+  position: center;
+  border-radius: 10px;
+  margin: 80px 20px 0;
+  margin-left: 0;
+  resize: none;
+}
+
+.questionExtra {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.questionExtra textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: auto;
+  resize: none;
+  font-size: 20px;
+}
+
+.questionExtra textarea:first-of-type {
+  margin-bottom: 20px;
+}
+
+iframe {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 35em;
+}

@@ -1,0 +1,122 @@
+/* Code Editor Container */
+.code-editor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Roboto", sans-serif; /* Use a modern font */
+  background-color: #7bd6e2; /* Light gray background */
+  /* background-image: url(''); Add background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px;
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #99a9b9; /* Blue header background */
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+/* Language Selector */
+.header select {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+  color: #212529; /* Dark gray text */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none; /* Remove default focus outline */
+}
+
+/* Run Button */
+.header button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2493d3; /* Green run button */
+  color: #ffffff; /* White text */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none; /* Remove default focus outline */
+  transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+  background-color: #174f74; /* Darker green on hover */
+}
+
+/* Timer */
+.timer {
+  font-size: 14px;
+  color: #ffffff; /* White text */
+  margin-right: 20px; /* Add spacing between timer and other header elements */
+}
+
+/* Editor Container */
+.editor-container {
+  display: flex;
+  /* flex-grow: 1; */
+  padding: 20px;
+}
+
+/* Code Editor Wrapper */
+.code-editor-wrapper {
+  flex: 1;
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Code Editor Textarea */
+.code-editor {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  resize: none;
+  background-color: #f8f9fa; /* Light gray background */
+  line-height: 1.6; /* Adjust line height for readability */
+  font-size: 14px;
+  color: #212529; /* Dark text */
+  font-family: "Roboto Mono", monospace; /* Use a monospace font for code */
+}
+
+/* Input and Output Section */
+.input-output {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 20px;
+}
+
+/* Input and Output Wrapper */
+.input-wrapper,
+.output-wrapper {
+  flex: 1;
+  background-color: #ffffff; /* White */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-left: 20px; /* Add some space between input and output */
+}
+
+.input,
+.output {
+  width: 100%;
+  min-height: 50%; /* Each section takes half of the available height */
+  padding: 10px;
+  border: none;
+  resize: none;
+  background-color: #f8f9fa; /* Light gray background */
+  line-height: 1.6; /* Adjust line height for readability */
+  font-size: 14px;
+}

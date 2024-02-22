@@ -1,0 +1,74 @@
+* {
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  background-image: url("../image/bugBattleBg.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #199391;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.team {
+  background-image: url("../image/bugBattleBg.png");
+}
+.responsive-container-block {
+  min-height: calc(100vh - 20px); /* Adjust height to fit viewport */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.outer-container {
+  background-image: url("../image/bugBattleBg.png"); /* Replace 'your-background-image.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  margin-left: 0px;
+}
+
+.inner-container {
+  max-width: 1320px;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  margin-top: 10px; /* Adjust margin for consistency */
+}
+
+.text-blk {
+  margin-top: 5px;
+}
+
+.section-head-text {
+  margin-bottom: 20px; /* Add spacing around the heading */
+  font-size: 30px; /* Increase font size */
+  font-weight: 700;
+  color: rgb(32, 162, 167); /* Change text color to a darker shade */
+  text-align: center; /* Center align the text */
+  text-transform: uppercase; /* Convert text to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle text shadow for depth */
+  transition: color 0.3s, transform 0.3s; /* Add transition for color change and transform */
+}
+
+.section-head-text:hover {
+  color: #20b2bd; /* Change text color on hover */
+  transform: scale(1.05); /* Increase scale on hover for a slight zoom effect */
+}
+
+.responsive-cell-block {
+  min-height: 75px;
+  width: calc(
+    100% / 3 - 30px
+  ); /* Calculate width dynamically to fit three cards in one row */
+  padding: 0 15px; /* Add horizontal padding to create spacing between cards */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  margin-bottom: 0; /* Adjust the margin between rows to minimum */
+}

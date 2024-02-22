@@ -1,0 +1,50 @@
+.container{
+    text-align: center;
+}
+.header {
+    background-color: #022e57;
+    padding: 10px;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position:relative;
+  }
+
+  .form1{
+    border: 1px solid black;
+    margin:2% 30% 2% 30%;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .label{
+    position:relative;
+    width: 50%;
+    padding:10px;
+    color:#022e57;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+  }
+  input{
+    padding:7px;
+    width:200px;
+    font-size:medium
+  }
+  textarea{
+    padding:7px;
+    resize: vertical;
+    font-size:medium;
+  }
+  .field{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+  }
+  .btn{
+    position:relative;
+    padding:10px;
+    color:white;
+    font-weight: 600;
+    font-size: large;
+    background-color: #022e57;
+    margin:2% 30% 2% 30%;
+  }
